@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="admin.css">
+</head>
+<body onload="loadUsers()">
+
+<h2 style="text-align:center; margin-top:20px;">
+    Admin Dashboard
+</h2>
+
+<table>
+
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Action</th>
+        </tr>
+        
+    </thead>
+
+    <tbody id="userTable">
+    </tbody>
+
+</table>
+
+<button
+class="logout-btn"
+onclick="logout()">
+Logout
+</button>
+
+<script src="auth.js"></script>
+
+</body>
+</html>
