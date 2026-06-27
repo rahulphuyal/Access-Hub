@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <link rel="stylesheet" href="login&register.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2>Register</h2>
+
+    <input
+        type="text"
+        id="fullname"
+        placeholder="Full Name"
+    >
+
+    <input
+        type="email"
+        id="email"
+        placeholder="Email"
+    >
+
+    <input
+        type="password"
+        id="password"
+        placeholder="Password"
+    >
+
+    <button onclick="registerUser()">
+        Register
+    </button>
+
+    <button onclick="Back()">
+        <a href="index.html">Home</a>
+    </button>
+
+    
+
+    <p style="text-align:center; margin-top:15px;">
+        Already have an account?
+        <a href="login.html">Login</a>
+    </p>
+
+</div>
+
+<script src="auth.js"></script>
+
+</body>
+</html>
